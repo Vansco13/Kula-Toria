@@ -41,4 +41,6 @@ This the current folder structure:
 
 In order to do contributions, you need to follow the contribution guidelines [here](CONTRIBUTING.md)
 - [iberniex](https://github.com/iberniex)
+- [iberniex](https://github.com/iberniex)
+
 <!-- add your username here -->
