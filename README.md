@@ -4,16 +4,16 @@ This is a learnging draft representation of the restaurant located in East Assem
 
 ## Table of contents
 
-1. [Technologies Used](README#Technologies Used)
-2. [Folder Structure](README#Folder Structure)
+1. [Technologies](README#Technologies)
+2. [Structure](README#Structure)
 3. [Contributors](README#Contributors)
 
-### Technologies Used
+### Technologies
 
 - Javascript
 - CSS
 
-### Folder Structure
+### Structure
 
 This contains a static page presentation of kula toria.
 
