@@ -4,9 +4,9 @@ This is a learnging draft representation of the restaurant located in East Assem
 
 ## Table of contents
 
-1. [Technologies](README#Technologies)
-2. [Structure](README#Structure)
-3. [Contributors](README#Contributors)
+1. [Technologies](#Technologies)
+2. [Structure](#Structure)
+3. [Contributors](#Contributors)
 
 ### Technologies
 
