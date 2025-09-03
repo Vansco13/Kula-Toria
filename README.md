@@ -37,6 +37,6 @@ This the current folder structure:
 
 ### Contributors
 
-In order to do contributions, you need to follow the contribution guidelines [here](CONTRIBUTING)
+In order to do contributions, you need to follow the contribution guidelines [here](CONTRIBUTING.md)
 - [iberniex](https://github.com/iberniex)
 <!-- add your username here -->
