@@ -1,6 +1,8 @@
 # Kula Toria
 
-This is a learnging draft representation of the restaurant located in East Assembly KAG.
+![Kula-toria](assets/kula-toria.png)
+
+This is a learning draft representation of the restaurant located in East Assembly KAG.
 
 ## Table of contents
 
