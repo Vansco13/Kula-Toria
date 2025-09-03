@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kula-Toria - Faith & Food United</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>🏛️ Kula-Toria</h1>
+                <p>Faith & Food United</p>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Kula-Toria</h1>
+                <p>Where faith nourishes the soul and food nourishes the body</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('menu')">View Menu</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('services')">Join Service</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">🍽️</div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Our Story</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Kula-Toria was founded with a simple mission: to create a sacred space where community, faith, and nourishment come together. Our unique concept combines the spiritual warmth of a church with the communal joy of sharing meals.</p>
+                        <p>Every dish we serve is prepared with love, every service is conducted with reverence, and every guest is welcomed as family.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <h3>500+</h3>
+                                <p>Meals Served Weekly</p>
+                            </div>
+                            <div class="stat">
+                                <h3>150</h3>
+                                <p>Regular Members</p>
+                            </div>
+                            <div class="stat">
+                                <h3>5</h3>
+                                <p>Years Serving</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="placeholder-image">⛪</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <p class="menu-subtitle">Blessed meals for body and soul</p>
+                
+                <div class="menu-categories">
+                    <div class="menu-category active" onclick="showCategory('lunch')">Lunch</div>
+                    <div class="menu-category" onclick="showCategory('beverages')">Beverages</div>
+                </div>
+
+                <div class="menu-items" id="lunch">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Blessed Burger</h3>
+                            <p>Grass-fed beef with artisanal cheese and communion sauce</p>
+                        </div>
+                        <div class="item-price">Ksh 18</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Disciples' Salad</h3>
+                            <p>Mixed greens with grilled chicken and vineyard dressing</p>
+                        </div>
+                        <div class="item-price">Ksh 14</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Miracle Fish Sandwich</h3>
+                            <p>Fresh catch of the day with tartar sauce and herbs</p>
+                        </div>
+                        <div class="item-price">Ksh 16</div>
+                    </div>
+                </div>
+
+                <div class="menu-items hidden" id="beverages">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Holy Water</h3>
+                            <p>Purified spring water with lemon</p>
+                        </div>
+                        <div class="item-price">Ksh 3</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Communion Wine</h3>
+                            <p>Selected red and white wines by the glass</p>
+                        </div>
+                        <div class="item-price">Ksh 8</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Angel's Brew Coffee</h3>
+                            <p>Fair-trade organic coffee, hot or iced</p>
+                        </div>
+                        <div class="item-price">Ksh 5</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Worship Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Sunday Morning Service</h3>
+                        <p class="time">10:00 AM - 11:30 AM</p>
+                        <p>Join us for uplifting worship and community fellowship, followed by our famous Sunday brunch.</p>
+                        <ul>
+                            <li>Contemporary worship music</li>
+                            <li>Inspiring sermon</li>
+                            <li>Community brunch</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Wednesday Evening Prayer</h3>
+                        <p class="time">7:00 PM - 8:00 PM</p>
+                        <p>Mid-week spiritual nourishment with prayer, reflection, and light refreshments.</p>
+                        <ul>
+                            <li>Group prayer session</li>
+                            <li>Biblical reflection</li>
+                            <li>Coffee and pastries</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Special Events</h3>
+                        <p class="time">Monthly</p>
+                        <p>Community dinners, holiday celebrations, and special worship services throughout the year.</p>
+                        <ul>
+                            <li>Holiday celebrations</li>
+                            <li>Community dinners</li>
+                            <li>Guest speakers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="events">
+            <div class="container">
+                <h2>Upcoming Events</h2>
+                <div class="events-list">
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Dec</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Christmas Community Dinner</h3>
+                            <p>Join us for a festive dinner celebrating the birth of Christ with traditional carols and seasonal dishes.</p>
+                            <span class="event-time">6:00 PM - 9:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">22</span>
+                            <span class="month">Dec</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Candlelight Service</h3>
+                            <p>A beautiful candlelight worship service followed by hot cocoa and fellowship.</p>
+                            <span class="event-time">7:30 PM - 9:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">31</span>
+                            <span class="month">Dec</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>New Year's Eve Reflection</h3>
+                            <p>End the year with gratitude and welcome the new year with hope and prayer.</p>
+                            <span class="event-time">10:00 PM - 12:30 AM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Visit Us</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>📍 Location</h3>
+														<p>Mesora Round - About, <br>
+														Buruburu, Nairobi, KENYA.</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📞 Phone</h3>
+                            <p>(555) 123-PRAY<br>
+                            (555) 123-7729</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📧 Email</h3>
+                            <p>info@eastassembly.org</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>🕐 Hours</h3>
+                            Sat: 8:00 AM - 10:00 PM<br>
+                            Sun: 9:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Send us a message</h3>
+                        <form id="contactForm">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                            <input type="text" placeholder="Subject" required>
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🏛️ Kula-Toria</h3>
+                    <p>Where faith nourishes the soul and food nourishes the body.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kula-Toria. All rights reserved. Built with faith and love.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html><html lang="j">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Kula Toria</title>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+	
+	</body>
+</html>
