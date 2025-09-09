@@ -45,5 +45,5 @@ In order to do contributions, you need to follow the contribution guidelines [he
 
 <!-- add your username here -->
 
--[Vansco](https://github.com/Vansco13)
+- [Vansco](https://github.com/Vansco13)
 
