@@ -44,6 +44,6 @@ In order to do contributions, you need to follow the contribution guidelines [he
 - [iberniex](https://github.com/iberniex)
 
 <!-- add your username here -->
-Vansco
--https://github.com/Vansco13
+
+-[Vansco](https://github.com/Vansco13)
 
